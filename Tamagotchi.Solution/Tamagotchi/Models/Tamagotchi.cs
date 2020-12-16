@@ -20,7 +20,10 @@ namespace Tamagotchi.Models
 
     public void Feed()
     {
-      
+      this.Hunger += 2;
+      this.Attention -= 2;
+      this.Rest -= 3;
+      this.Hygiene -=5;
     }
   }
 }
