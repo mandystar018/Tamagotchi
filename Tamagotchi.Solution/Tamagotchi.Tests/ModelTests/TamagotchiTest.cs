@@ -25,7 +25,7 @@ namespace Tamagotchi.Tests
       Pet newPet = new Pet("Pablo");
       
       //Act
-      Assert.AreEqual("john", newPet.Name);
+      Assert.AreEqual("Pablo", newPet.Name);
 
     }
   }
