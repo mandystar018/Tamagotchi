@@ -31,10 +31,19 @@ namespace Tamagotchi.Tests
     public void Pet_CreatesPetWithProperties_Pet()
     {
       Pet newPet = new Pet("Pablo");
-      Assert.AreEqual(10, newPet.Food);
+      Assert.AreEqual(10, newPet.Hunger);
       Assert.AreEqual(5, newPet.Attention);
       Assert.AreEqual(15, newPet.Rest);
       Assert.AreEqual(10, newPet.Hygiene);   
     }
+
+    [TestMethod]
+    public void Feed_IncreaseTamagotchiHunger_Int()
+    {
+      Pet newPet = new Pet("Pablo");
+      newPet.Feed();
+      Assert.AreEqual(12, newPet.Hunger);
+    }
+
   }
 }

@@ -109,9 +109,16 @@ Copyright (c) 2020 **_Amanda Otero_ _Patrick Osten_**
 
 //Constructor of Tamagotchi
  - Name
- - Food  
+ - Hunger
  - Attention 
- - Rest 
+ - Rest
  - Hygiene
+
+// Method
+ - Feed void method
+    +2
+    -2
+    -3
+    -5
 
 // Max of properties is 15 points
