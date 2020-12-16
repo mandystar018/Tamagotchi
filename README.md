@@ -133,10 +133,10 @@ Copyright (c) 2020 **_Amanda Otero_ _Patrick Osten_**
   -3 Attention
   -2 Hygiene
 
-   - Clean
-    +2 hygiene
-    -3 rest
-    -1 hunger
+  - Clean
+  +2 hygiene
+  -3 rest
+  -1 hunger
   
 
 // Max of properties is 15 points

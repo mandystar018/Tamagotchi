@@ -68,5 +68,13 @@ namespace Tamagotchi.Tests
       newPet.Clean();
       Assert.AreEqual(12, newPet.Hygiene);
     }
+    
+    [TestMethod]
+    public void GameOver_ChecksToSeeIfTamaGotchiIsDead_True()
+    {
+      Pet newPet = new Pet("Pablo");
+      newPet.Hunger = 0;
+      Assert.AreEqual("Your John died", newPet.GameOver());
+    }
   }
 }

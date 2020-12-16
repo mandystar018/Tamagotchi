@@ -24,6 +24,7 @@ namespace Tamagotchi.Models
       this.Attention -= 2;
       this.Rest -= 3;
       this.Hygiene -=5;
+      GameOver();
     }
     public void Play()
     {
@@ -31,6 +32,7 @@ namespace Tamagotchi.Models
       this.Attention += 2;
       this.Rest -= 5;
       this.Hygiene -=2;
+      GameOver();
     }
 
     public void Sleep()
@@ -39,6 +41,7 @@ namespace Tamagotchi.Models
       this.Attention -= 3;
       this.Rest += 2;
       this.Hygiene -= 2;
+      GameOver();
     }
 
     public void Clean()
@@ -46,6 +49,15 @@ namespace Tamagotchi.Models
       this.Hunger -= 1;
       this.Rest -= 3;
       this.Hygiene += 2;
+      GameOver();
+    }
+    public string GameOver()
+    {
+      if (this.Hunger == 0 || this.Rest == 0 || this.Hygiene == 0 || this.Attention == 0)
+      {
+        return "Your " + this.Name + "died";
+      }
+      else return "Now " + this.Name + " is Happy!";
     }
   }
 }
