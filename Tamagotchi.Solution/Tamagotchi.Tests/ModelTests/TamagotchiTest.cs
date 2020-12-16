@@ -66,7 +66,7 @@ namespace Tamagotchi.Tests
     {
       Pet newPet = new Pet("Pablo");
       newPet.Clean();
-      Assert.AreEqual(0, newPet.Hygiene);
+      Assert.AreEqual(12, newPet.Hygiene);
     }
   }
 }
