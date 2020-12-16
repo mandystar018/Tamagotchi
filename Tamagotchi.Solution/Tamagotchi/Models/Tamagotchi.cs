@@ -25,5 +25,12 @@ namespace Tamagotchi.Models
       this.Rest -= 3;
       this.Hygiene -=5;
     }
+    public void Play()
+    {
+      // this.Hunger -= 3;
+      // this.Attention += 2;
+      // this.Rest -= 5;
+      // this.Hygiene -=2;
+    }
   }
 }

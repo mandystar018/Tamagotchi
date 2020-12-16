@@ -109,10 +109,10 @@ Copyright (c) 2020 **_Amanda Otero_ _Patrick Osten_**
 
 //Constructor of Tamagotchi
  - Name
- - Hunger
- - Attention 
- - Rest
- - Hygiene
+ - Hunger = 10
+ - Attention = 5
+ - Rest = 15
+ - Hygiene = 10
 
 // Method
  - Feed void method
@@ -120,5 +120,11 @@ Copyright (c) 2020 **_Amanda Otero_ _Patrick Osten_**
     -2
     -3
     -5
+
+- Play void
+  +2
+  -3
+  -5
+  -2
 
 // Max of properties is 15 points
