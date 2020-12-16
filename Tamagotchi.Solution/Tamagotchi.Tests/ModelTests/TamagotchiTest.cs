@@ -60,5 +60,13 @@ namespace Tamagotchi.Tests
       newPet.Sleep();
       Assert.AreEqual(17, newPet.Rest);
     }
+
+    [TestMethod]
+    public void Clean_IncreaseTamagotchiHygiene_Int()
+    {
+      Pet newPet = new Pet("Pablo");
+      newPet.Clean();
+      Assert.AreEqual(0, newPet.Hygiene);
+    }
   }
 }
