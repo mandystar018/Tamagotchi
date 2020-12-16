@@ -116,15 +116,22 @@ Copyright (c) 2020 **_Amanda Otero_ _Patrick Osten_**
 
 // Method
  - Feed void method
-    +2
-    -2
-    -3
-    -5
+    +2 hunger
+    -2 attention
+    -3 rest
+    -5 hygiene
 
 - Play void
-  +2
-  -3
-  -5
-  -2
+  +2 attention
+  -3 hunger
+  -5 rest
+  -2 hygiene
+
+- Sleep
+  +2 Rest
+  -5 Hunger
+  -3 Attention
+  -2 Hygiene
+  
 
 // Max of properties is 15 points
