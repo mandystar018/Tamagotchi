@@ -27,10 +27,10 @@ namespace Tamagotchi.Models
     }
     public void Play()
     {
-      // this.Hunger -= 3;
-      // this.Attention += 2;
-      // this.Rest -= 5;
-      // this.Hygiene -=2;
+      this.Hunger -= 3;
+      this.Attention += 2;
+      this.Rest -= 5;
+      this.Hygiene -=2;
     }
   }
 }
