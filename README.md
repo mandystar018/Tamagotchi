@@ -112,6 +112,6 @@ Copyright (c) 2020 **_Amanda Otero_ _Patrick Osten_**
  - Food  
  - Attention 
  - Rest 
- - Hygene
+ - Hygiene
 
-// 
+// Max of properties is 15 points

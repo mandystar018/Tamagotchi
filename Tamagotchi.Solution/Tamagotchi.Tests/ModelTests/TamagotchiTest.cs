@@ -26,7 +26,15 @@ namespace Tamagotchi.Tests
       
       //Act
       Assert.AreEqual("Pablo", newPet.Name);
-
+    }
+    [TestMethod]
+    public void Pet_CreatesPetWithProperties_Pet()
+    {
+      Pet newPet = new Pet("Pablo");
+      Assert.AreEqual(0, newPet.Food);
+      Assert.AreEqual(0, newPet.Attention);
+      Assert.AreEqual(0, newPet.Rest);
+      Assert.AreEqual(0, newPet.Hygiene);   
     }
   }
 }
