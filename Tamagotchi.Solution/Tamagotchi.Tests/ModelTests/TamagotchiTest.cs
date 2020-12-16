@@ -58,7 +58,7 @@ namespace Tamagotchi.Tests
     {
       Pet newPet = new Pet("Pablo");
       newPet.Sleep();
-      Assert.AreEqual(0, newPet.Rest);
+      Assert.AreEqual(17, newPet.Rest);
     }
   }
 }
