@@ -74,7 +74,7 @@ namespace Tamagotchi.Tests
     {
       Pet newPet = new Pet("Pablo");
       newPet.Hunger = 0;
-      Assert.AreEqual("Your John died", newPet.GameOver());
+      Assert.AreEqual("Your Pablo died", newPet.GameOver());
     }
   }
 }

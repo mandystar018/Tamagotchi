@@ -55,7 +55,7 @@ namespace Tamagotchi.Models
     {
       if (this.Hunger == 0 || this.Rest == 0 || this.Hygiene == 0 || this.Attention == 0)
       {
-        return "Your " + this.Name + "died";
+        return "Your " + this.Name + " died";
       }
       else return "Now " + this.Name + " is Happy!";
     }
