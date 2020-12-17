@@ -1,0 +1,22 @@
+@using Tamagotchi.Models;
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Hunger</th>
+    <th>Attention</th>
+    <th>Rest</th>
+    <th>Hygiene</th>
+  </tr>
+  <tr>
+    <td>@Model.Name</td>
+    <td>@Model.Hunger</td>
+    <td>@Model.Attention</td>
+    <td>@Model.Rest</td>
+    <td>@Model.Hygiene</td>
+  </tr>
+  <tr>
+    <td><a href="/pets/feed"><button class="btn btn-success"></button></td></a>
+  </tr>
+
+</table>

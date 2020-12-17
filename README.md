@@ -140,3 +140,4 @@ Copyright (c) 2020 **_Amanda Otero_ _Patrick Osten_**
   
 
 // Max of properties is 15 points
+// List of Tamagotchi
